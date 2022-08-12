@@ -1,8 +1,14 @@
+Git:
 git add *
 git commit -m "daily update"
 git push origin main
+git push origin master --force
 
 
+HTML5:
 https://html.spec.whatwg.org/multipage/
 
 https://developer.mozilla.org/en-US/docs/Web/HTML
+
+emmit: 
+    https://docs.emmet.io/abbreviations/syntax/
