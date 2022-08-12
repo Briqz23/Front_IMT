@@ -1,0 +1,8 @@
+git add *
+git commit -m "daily update"
+git push origin main
+
+
+https://html.spec.whatwg.org/multipage/
+
+https://developer.mozilla.org/en-US/docs/Web/HTML
