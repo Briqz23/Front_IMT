@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <!-- Entrada de dados que serão enviadas para um servidor-->
+
+
+        <label>
+            <!-- input dentro do label: label vai se associar diretamente ao input-->
+            Nome:
+            <input type="text">
+        </label>
+        <label for="sobrenome">Sobrenome:</label>
+        <input id='sobrenome' type="text">
+
+        <label for="email">email :</label>
+        <input id="email" type="email">
+
+        <label for="arquivo">Arquivo:</label>
+        <input id=arquivo type="file">
+
+        <label for="mensagem">Sua mensagem</label>
+        <textarea id="mensagem" cols="30" rows="10"></textarea>
+        <input type="submit" value='Enviar'>
+
+        <label for="estado">Estado: </label>
+        <select id="estado">
+            <option> São Paulo</option>
+            <option> Rio de Janeiro</option>
+        </select>
+        <!-- Agrupa elementos clicáveis-->
+        <fieldset>
+            <legend>Qual marco você prefere?</legend>
+            <input type="radio" name="veiculo"><label for="">ford</label>
+            <input type="radio" name="veiculo"><label for="">chevrolet</label>
+            <input type="radio" name="veiculo"><label for="">jeep</label>
+            <input type="radio" name="veiculo"><label for="">audi</label>
+        </fieldset>
+        <filedset>
+            <legend></legend>
+            <input type="checkbox"><label for="amarelo">Amarelo</label></input>
+            <input type="checkbox"><label for="verde">Verde</label></input>
+            <input type="checkbox"><label for="azul">Azul</label></input>
+        </filedset>
+    </form>
+</body>
+
+</html>
