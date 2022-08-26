@@ -5,6 +5,7 @@ git push origin master
 
 git push origin master --force
 
+ctrl+SHIFT+ I
 
 HTML5:
 https://html.spec.whatwg.org/multipage/
