@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Padding</title>
+    <style>
+      .primeiro,
+      .segundo {
+        width: 200px;
+        display: inline-block;
+        border: 1px solid black;
+      }
+      .primeiro {
+        /* cima baixo esquerda direta
+            caso seja 10 20 30, entende-se que 20 é = 10 20 30 20,
+            o mesmo para 20 40, que seria 20 40 20 40
+            */
+        padding: 20px;
+      }
+      segundo {
+        padding: 20px 40px;
+      }
+      article {
+        border: 5px solid blue;
+        padding: 20px;
+      }
+      body {
+        border: 5px solid red;
+        padding: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <p class="primeiro">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat,
+        nesciunt. Explicabo sint corrupti voluptate ducimus numquam error
+        doloribus fugit, nulla id maxime mollitia ullam natus.
+      </p>
+      <p class="segundo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+        veniam.
+      </p>
+    </article>
+  </body>
+</html>

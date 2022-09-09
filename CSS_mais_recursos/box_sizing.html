@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box sizing</title>
+    <style>
+        body{
+            margin:0px;
+        }
+        .caixa1, .caixa2{
+            width: 300px;
+            text-align: justify;
+            background-color: gray;
+            border: 5px solid black;
+
+        }
+        .caixa1{
+            margin-bottom: 0;
+            border: 5px solid black;
+            padding-left: 50px;
+            padding-right: 50px;
+            box-sizing: 50px;
+            /*a ideia da border box é limitar o tamanho da caixa que tenha como conteúdo o texto. Então, antes uma caixa de 100padding 400 texto 100 padding, com border box de 300, terá 100 padding 100 texto e 100 de padding.
+
+            box-sizing: content-box; /*padrão do navegador*/
+            box-sizing: border-box;
+        }
+
+        .caixa2{
+            margin-bottom: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <p class="caixa1">Essa é uma box-sizing: border box e, por ser padrão, tem 300px de largura e a altura é ajustada conforme o tamanho do texto.</p>
+    <p class="caixa2">Idem.</p>
+    
+</body>
+</html>

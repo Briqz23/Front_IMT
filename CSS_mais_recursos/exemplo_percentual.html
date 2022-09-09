@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Percentual</title>
+    <style>
+      html {
+        font-size: 62.5%;
+      }
+      p {
+        font-size: 240%;
+        /*a ordem não importa, p/article/html, ele sempre vai partir do maior, seguindo a árvore.*/
+      }
+      article {
+        /* o p está dentro do article. Caso eu TAMBÉM coloque font-size: 200% no article, o tamanho aumentará em 4 vezes (16*4) */
+        font-size: 200%;
+      }
+      .principal {
+        background-color: cornsilk;
+        width: 1200px;
+        margin: 0 auto;
+      }
+      article {
+        background-color: aliceblue;
+        /* 40% se refere ao pai imediato (.principal) que é 1200px*/
+        width: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="principal">
+      <article class="postagem">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+        facilis, pariatur sit deleniti rerum corporis totam voluptas itaque vel
+        amet aliquid? Dignissimos qui incidunt voluptatibus similique unde
+        minus, dolor cum.
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Margin</title>
+    <style>
+      .primeira {
+        margin-left: 0px;
+        /* poder ter função semelhante ao do padding*/
+        border: 5px solid red;
+      }
+      body {
+        border: 5px solid blue;
+        margin: 0 
+        /* com a margem 0 o body cola no html, mas com 10, por ex,
+        o html descola "do navegador".*/
+      }
+      html{
+        border: 5px solid green;
+      }
+      .segunda, .terceira{
+        border: 5px solid black;
+      }
+      
+      .segunda{
+        margin-bottom:30px
+
+      }
+      .terceira{
+        /*as margens se sobrepõem. O css considera apenas o que tiver o maior valor. Caso um dos valores seja negativo, acontece uma subtração, ex: 10 + -30 --> -20px */
+        margin-top: -30px;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <p class="primeira">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quam
+        tenetur facere id? Obcaecati dignissimos ipsa odit eius. Delectus earum
+        laborum aperiam quos perferendis sint, itaque corporis tempora autem
+        enim.
+      </p>
+      <p class="segunda">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ea.
+      </p>
+      <p class="terceira">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae eaque non omnis deserunt. Voluptates tenetur odit sunt repellat nulla!</p>
+    </article>
+  </body>
+</html>

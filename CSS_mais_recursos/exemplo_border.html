@@ -3,6 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <title>Border</title>
+    <style>
+      a {
+        /*
+        border-width: thin;
+        border-color: aliceblue;
+        border-style: solid;
+        por conta do efeito cascata, border prevalece sobre border-top.*/
+        border-top: 10px solid blue;
+        border: thin red solid;
+      }
+      .engenharia {
+        border: 5px solid green;
+        border-radius: 5px;
+        border-top-left-radius: 50px;
+      }
+
+      .farmacia {
+        /* a ordem importa do <line-width> || <line-style> || <color>*/
+        border: 1px solid black;
+        border-radius: 20px 40px 80px 160px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div id="cursos">
+        <p class="engenharia">Engenharia</p>
+        <p class="farmacia">Farmácia</p>
+        <a href="#">Mais informações</a>
+      </div>
+    </main>
+  </body>
 </html>
