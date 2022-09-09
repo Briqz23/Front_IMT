@@ -1,0 +1,5 @@
+/* !important anula o efeito de cascata
+é bom evita-lo por tornar o efeito casacta confuso.*/
+p{
+    color:green !important;
+}
