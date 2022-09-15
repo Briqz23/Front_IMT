@@ -1,3 +1,21 @@
 p{
     color:red;
 }
+
+p.classe{
+    color: aliceblue;
+}
+
+p.classe#descricao{
+    color:blue
+}
+
+p.classe#descricao{
+    color:darkcyan
+}
+/*  q
+    ID:1,0,0
+    Classe: 0,1,0
+    tipo: 0,0,1
+
+    caso empate, pega o de baixo
