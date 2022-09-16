@@ -1,0 +1,73 @@
+/*seletor universal, especificidade zero*/
+* {
+  /*medidas padding bar passam a fazer parte dos 300px*/
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /*bom deixar em % pq o usuário pode mudar o tamanho da fonte nas conf. do navegador e pq dependendo do tamanha do tela a letra pode ficar muito grande ou muito pequena*/
+  font-size: 14px;
+}
+
+header {
+  height: 80px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+header  img {
+  margin-top: 10px;
+}
+
+
+.container {
+  width: 1200px;
+  /* centralizar*/
+  margin: 0 auto;
+  padding-left: 16px ;
+  padding-right: 16px;
+}
+
+#vagas{
+  padding: 80px;
+
+}
+
+article{
+    padding-bottom: 12px;
+    border: 1px solid #2196F3;
+    width: 380px;
+    
+}
+
+article > h2{
+    background-color: #2196F3;
+    color: white;
+    line-height: 3; /* 3x a altura da fonte*/
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: normal;
+    
+}
+
+article>div{
+  list-style: none;
+  text-align: center;
+  padding:0%;
+  margin: 20px 0;
+  /* 20px 0, o 0 é pra q? // padding 0? qual o padrão? */
+
+}
+
+article > ul{
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+article > ul >li{
+  text-align: center;
+}
+article > footer{
+  text-align: center;
+}

@@ -17,6 +17,7 @@ h1.borda_esquerda{
   
 }
 
+/* é bom repetir, é uma boa prática*/
 
 .borda_esquerda#topcurl {
   border-top-left-radius: 15px;

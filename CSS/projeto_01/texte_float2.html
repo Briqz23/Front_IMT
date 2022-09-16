@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Float 2</title>
+    <style>
+      body {
+        font-size: 26px;
+      }
+      h1 {
+        margin: 0;
+      }
+      article {
+        background-color: aliceblue;
+      }
+      .caixa1,
+      .caixa2 {
+        background-color: beige;
+      }
+      .caixa1 {
+        float: left;
+        width: 40%;
+      }
+      .caixa2 {
+        float: right;
+        width: 40%;
+      }
+
+      footer {
+        background-color: cornflowerblue;
+      }
+      article > p::first-letter{
+        font-size: 80px;
+      }
+      h1::before{
+        /*h1 é um tipo e before é outro*/
+        content: "Título da Página;"
+      }
+      h1::after{
+        content: " 2022"
+
+      }
+
+      article::after{
+        content: "";
+        display: block;
+        /* precisa ser display block pra usar o clear*/
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <h1>Lorem, ipsum.</h1>
+      <p class="caixa1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+        quisquam similique earum distinctio, iste in! Quaerat sed magni dicta
+        rerum!
+      </p>
+      <p class="caixa2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, vel
+        animi a minus earum iure rerum, nemo necessitatibus dolorem quae quia
+        expedita quam.u
+      </p>
+      <div style="clear: both"></div>
+      <!-- clear both tá fazendo referência diretamente o pseudo-elemento 'p'. Caso eu coloque um aside depois não vai pegar nele, enão não vale a pena colocar o clear no footer. Lembrandoq que colocar no div funciona, mas não é uma boa prática-->
+    </article>
+    <footer>Lorem ipsum dolor sit amet consectetur.</footer>
+  </body>
+</html>

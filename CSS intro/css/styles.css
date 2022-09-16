@@ -47,3 +47,8 @@ PARA EVITAR ESSE TIPO DE REPETIÇÃO: agrupador de seletores. Nem sempre é a me
 .novo-curso{
     color:red;
 }
+
+/* 
+a b {} filho descendente
+a >b {} filho direto
+*/
