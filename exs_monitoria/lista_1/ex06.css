@@ -1,0 +1,38 @@
+h1.Título {
+  text-align: center;
+  color: blue;
+  border: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  font-family: "Courier New", Courier, monospace;
+}
+h1.borda_esquerda{
+    background-color: lightgreen  ;
+}
+.borda_esquerda {
+  border-color: blue;
+  border-left: 10px blue;
+  border-left-style: solid;
+  color: black;
+  
+}
+
+
+.borda_esquerda#topcurl {
+  border-top-left-radius: 15px;
+}
+.borda_esquerda#bottomcurl {
+    border-bottom-left-radius: 15px;
+    
+}
+
+
+
+
+.ol {
+  list-style-type: upper-roman;
+}
+
+.footer_extra{
+background-color: khaki;
+}
