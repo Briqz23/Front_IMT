@@ -1,0 +1,57 @@
+
+    
+    body {
+        background-color: black;
+      }
+      p {
+        color: white;
+        text-align: justify;
+        font-family: "Roboto", sans-serif;
+        border-left: 15px;
+        border-left-color: aliceblue;
+        border-left-style: solid;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+      }
+  
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'Courier New', Courier, monospace;
+        border: 5px;
+        border-radius: 10px;
+        font-size: 100%;
+        color: blue;
+        background-color: aqua;
+      }
+      h1 {
+        /*por que o font-size não faz efeito aqui?*/
+        /*por que o font-size vai acumulando? qual o sentido nisso? algo além disso também acumula? */
+        font-size: 240%;
+        color: blue;
+      }
+  
+      h2 {
+        font-size: 160%;
+        color: coral;
+      }
+      h3 {
+        font-size: 80%;
+        color: lavender;
+      }
+      h4 {
+        font-size: 80%;
+        color: gray;
+      }
+      h5 {
+        font-size: 160%;
+        color: mediumturquoise;
+      }
+      h6 {
+        font-size: 240%;
+        color: violet;
+      }
+  
