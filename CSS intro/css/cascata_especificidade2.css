@@ -1,15 +1,19 @@
+/* Selector Specificity: (0, 0, 1) */
 p{
     color:red;
 }
-
+/* <p class="classe">
+Selector Specificity: (0, 1, 1) */
 p.classe{
     color: aliceblue;
 }
-
+/* <p class="classe" id="descricao">
+Selector Specificity: (1, 1, 1)*/
 p.classe#descricao{
     color:blue
 }
-
+/* <p class="classe" id="descricao">
+Selector Specificity: (1, 1, 1)*/
 p.classe#descricao{
     color:darkcyan
 }
