@@ -31,7 +31,7 @@ header  img {
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
-  
+  width: 100%;
   
   /* centralizar*/
   margin: 0 auto;
@@ -43,7 +43,7 @@ header  img {
   padding: 80px;
 
 }
-#vagas ::after{
+#vagas::after{
   content: '';
   display: block;
   clear: both;
@@ -52,12 +52,11 @@ header  img {
 article{
     padding-bottom: 12px;
     border: 1px solid #2196F3;
-    width: 380px;
+    
     /*não adianta mudar a porcentagem: sempre vai ser x% de 1168px (borda container)
     Para isso, vou usar fluid layout*/
-    float: left;
-    margin-right: 8px;
-    /* o float vai desempilhar e colocar alinhado*/
+    
+    /* o  vai desempilhar e colocar alinhado*/
 }
 
 /*isso é uma media query*/
@@ -67,7 +66,7 @@ article{
     width: 30%;
     float: left;
     margin-right: 8px;
-    
+
   }
 
 }
