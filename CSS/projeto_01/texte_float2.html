@@ -51,6 +51,7 @@
   </head>
   <body>
     <article>
+      <!--  assim que o article termina, os efeitos floats também terminam.-->
       <h1>Lorem, ipsum.</h1>
       <p class="caixa1">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
@@ -63,6 +64,7 @@
         expedita quam.u
       </p>
       <div style="clear: both"></div>
+      <!-- Esse elemento html só tá pra fazer a limpeza do float. Por ser vazio, não condiz com a acessibilidade-->
       <!-- clear both tá fazendo referência diretamente o pseudo-elemento 'p'. Caso eu coloque um aside depois não vai pegar nele, enão não vale a pena colocar o clear no footer. Lembrandoq que colocar no div funciona, mas não é uma boa prática-->
     </article>
     <footer>Lorem ipsum dolor sit amet consectetur.</footer>
