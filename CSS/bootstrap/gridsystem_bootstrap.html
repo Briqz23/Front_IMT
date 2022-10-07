@@ -12,7 +12,111 @@
     />
   </head>
   <body>
-    <!-- função dessas classes: descobrir qual área útil utulizar-->
+    <div class="container mt-5 border">
+
+        <div class="row">
+                <!--
+                order-first: sempre o primeiro, vira order -1
+                quando não é especificado é 0
+                em caso de empate, o qeu falar primeiro "pega o lugar"
+                -->
+            <div class="col-4 border mt-2 order-2">
+            sou o 1
+            </div>
+            <div class="col-4 border mt-2 order-3">
+            Sou o 2
+            </div>
+            <div class="col-4 border mt-2 order-1">
+            Sou o 3
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="row">
+        <!-- ocupa o que sobra
+        ver diferença entre esse e o de largura igual sem empilhar-->
+        <div class="col bg-primary my-3 p-3"></div>
+        <div class="col bg-danger my-3 p-3"></div>
+        <div class="col bg-secondary my-3 p-3"></div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 'col'  : impedir o empilhamento, mesmo se tiverem mais de 12 colunas
+            é col que faz isso mesmo?-->
+      <div class="row">
+        <div class="col bg-primary p-2 my-2"></div>
+
+        <div class="col bg-secondary p-2 my-2"></div>
+
+        <div class="col bg-info p-2 my-2"></div>
+      </div>
+
+      <div class="row">
+        <!-- .col-sm-10.col-md-4.col-lg-5.my-5.bg-primary.p-3 -->
+        <!-- metodologia bootstrap mobile first: caso não tenha uma definição, o default é 12. 
+            se o cel eh pequeno pq o defalut eh 12?-->
+        <div class="col-sm-10 col-md-4 col-lg-5 my-5 bg-primary p-3"></div>
+
+        <div class="col-sm-1 col-md-4 col-lg-3 my-5 bg-danger p-3"></div>
+
+        <div class="col-sm-1 col-md-4 col-lg-2 my-5 bg-info p-3"></div>
+
+        <div class="col-lg-10 bg-dark my-5 p-3"></div>
+      </div>
+
+      <div class="row">
+        <!-- 
+        disputa de espaçpo condicional:
+        se a tela for pelo menos pequena, ela ocupa 12 colunas. 
+        se a tela for pelo menos média, ela ocupa 6 colunas
+    
+        impossível disputar espaço para uma tela pequena. Se ela tem 12 colunas, é impossível que caiba outra.
+        -->
+
+        <div class="col-sm-12 col-md-6 my-5 bg-info">
+          sm: 12 colunas, md: 6 colunas
+        </div>
+
+        <div class="col-sm-12 col-md-6 my-5 bg-secondary">
+          sm: 12 colunas, md: 6 colunas
+        </div>
+      </div>
+
+      <!-- a classe row decidi quais caixas ficam lado a lado. Então, caso tenham 2 colunas sobrando, 
+    ela não vai coloca-las ao lado das próximas criadas- destinadas à linha de baixo. -->
+      <div class="row">
+        <div class="col-10 bg-primary">12 colunas</div>
+      </div>
+
+      <!-- função dessas classes: descobrir qual área útil utulizar-->
+      <!-- descobrir pq tem 2 containers com a msma funcao-->
+
+      <!--
     <div class="container bg-warning mt-4">container</div>
     <div class="container-fluid bg-info mt-4">container-fluid</div>
     <div class="container-sm bg-success mt-4">container-sm</div>
@@ -20,6 +124,7 @@
     <div class="container-lg bg-danger mt-4">container-lg</div>
     <div class="container-xl bg-light mt-4">container-xl</div>
     <div class="container-xxl bg-info mt-4">container-xl</div>
+    --></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
