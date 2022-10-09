@@ -1,0 +1,37 @@
+html {
+    background-color: deepskyblue;
+  }
+  
+  body {
+    background-color: rgb(37, 205, 60);
+  }
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+    
+  }
+  .first {
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: justify;
+    
+  }
+  .middle {
+    border-bottom: 2px dotted black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 10px 20px;
+    text-align: justify;
+  }
+  
+  .last {
+      border-bottom: 2px solid black;
+      border-right: 2px solid black;
+      border-left: 2px solid black;
+      padding: 10px 20px;
+    text-align: justify;
+  }
+  
