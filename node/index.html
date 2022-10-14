@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.css"
+      rel="stylesheet"
+    />
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body onload="obterFilmes()">
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <!-- padrão são 12 mobile first-->
+        <div class="col-md-8">
+          <!--            table.table.table-striped.table-hover.text-center.filmes-->
+          <table class="table table-striped table-hover text-center filmes">
+            <thead>
+              <tr>
+                <th>Título</th>
+                <th>Sinopse</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
