@@ -1,0 +1,23 @@
+.red-class {
+    background-color: red;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    display:inline-block
+}
+
+.yellow-class {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    background-color: yellow;
+    display:inline-block
+}
+
+.pink-class {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    background-color: pink;
+    display:inline-block
+}
