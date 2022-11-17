@@ -1,20 +1,20 @@
-.red-class {
-    background-color: red;
+ul{
     height: 300px;
     width: 200px;
     margin: 10px;
+    display: inline-block;
+}
+
+
+
+.red-class {
+    background-color: red;
 }
 
 .yellow-class {
-    height: 300px;
-    width: 200px;
-    margin: 10px;
     background-color: yellow;
 }
 
 .pink-class {
-    height: 300px;
-    width: 200px;
-    margin: 10px;
     background-color: pink;
 }

@@ -1,0 +1,49 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+ul {
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+   
+}
+
+p {
+    display: inline;
+
+}
+
+.destaque {
+    font-weight: bold;
+    background-color: bisque;
+    display: inline-block;
+    padding: 3px;
+    margin: 3px;
+    
+
+}
+
+
+.red-class {
+    background-color: red;
+    color: aliceblue;
+
+}
+ul:hover{
+    border: 10px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.yellow-class {
+    background-color: yellow;
+    color: blue;
+}
+
+.pink-class {
+    color: brown;
+    background-color: pink;
+}
