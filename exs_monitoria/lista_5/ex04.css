@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    background-color: gray;
+    border: 2px solid;
+    height: 400px;
+    align-items: flex-end;
+}
+#g1,#g2,#g3,#g4,#g5,#g6{
+    width: 50px;
+    background-color: red;
+    margin-left: 10px;
+    border: 2px solid;
+    margin-bottom: 5px;
+}
+
+#g1{
+    height: 100px;
+}
+#g2{
+    height: 150px;
+}
+#g3{
+    height: 200px;
+}
+#g4{
+    height: 250px;
+}
+#g5{
+    height: 300px;
+}
+#g6{
+    height: 350px;
+}
