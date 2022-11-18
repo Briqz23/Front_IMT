@@ -1,0 +1,35 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 4px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 10px;
+    background-color: chocolate;
+}
+main{
+    vertical-align: top;
+}
+
+.flex-container-2{
+   display: flex;
+}
+.tabela{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 3px black;
+    width: 40%;
+    margin: 2.4%;
+
+}
+
+.tabela>p#normal{
+    
+   border-top: solid black 3px;
+}
+.tabela>p#bottom{
+    
+    border-top: solid black 3px;
+ }
