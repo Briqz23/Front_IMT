@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(172, 176, 181);
+    margin: 0px;
+
+}
+
+header {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    align-items: center;
+    color: blue;
+    ;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#left {
+    border-left: 2px blue solid;
+    border-bottom: 2px blue solid;
+    border-bottom-left-radius: 30px;
+    width: 25%;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    background-color: orange;
+}
+
+#middle {
+    border-bottom: 2px blue solid;
+    text-align: center;
+    width: 25%;
+    margin-bottom: 10px;
+    background-color: orange;
+
+}
+
+#right {
+    padding-right: 25px;
+    width: 25%;
+    text-align: end;
+    border-right: 2px blue solid;
+    border-bottom: 2px blue solid;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 10px;
+    background-color: orange;
+}
+
+header>p {
+    background-color: orange;
+}
+
+main {
+
+    background-color: white;
+    height: 700px;
+    border-radius: 30px;
+    margin: 3px;
+
+}
+
+.orange-container {
+    border-style: solid;
+    border-color: orange;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 400px;
+
+    
+
+}
+
+main p {
+    margin: 5px;
+    display: flex;
+
+}
+
+.bola-laranja {
+    background-color: orange;
+    border-radius: 100%;
+    width: 10%;
+}
+
+.container {
+    display: flex;
+}
+
+.laranja {
+
+    border-color: orange solid;
+    border-radius: 35px;
+    background-color: orange;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    align-self: center;
+    
+}
+
+#flexend {
+    flex-grow: 3;
+    margin-right: 10px;
+   align-items: end;
+   
+}
