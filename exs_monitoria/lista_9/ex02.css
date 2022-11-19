@@ -1,0 +1,14 @@
+.loja-header {
+    background-color: rgb(82, 169, 245);
+    height: 100px;
+    width: 100%;
+    border-radius: 30px;
+    border: 10px solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 30px;
+}
