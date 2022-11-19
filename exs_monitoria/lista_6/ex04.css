@@ -1,7 +1,9 @@
 body {
     background-color: rgb(172, 176, 181);
     margin: 0px;
-
+    height: 100%;
+    
+    
 }
 
 header {
@@ -57,7 +59,6 @@ main {
     border-radius: 30px;
     margin: 3px;
     
-
 }
 
 .orange-container {
@@ -65,9 +66,23 @@ main {
     border-color: orange;
     border-radius: 35px;
     display: flex;
+    height: 70%;
     flex-direction: column;
     width: 25%;
-   
+    align-items:flex-start
+  
+}
+
+.orange-container-2 {
+    margin-top: 100px;
+    display: flex;
+    border-style: solid;
+    border-color: orange;
+    border-radius: 35px;
+    flex-direction: column;
+    height: 700px;
+    width: 25%;
+    flex-grow: 1;
 }
 
 
@@ -86,6 +101,8 @@ main p {
 main.container {
     display: flex;
     height: 80%;
+
+
 }
 
 .laranja {
@@ -102,7 +119,7 @@ main.container {
 
 #flexend {
     
-    flex-grow: 3;
+   
     margin-right: 10px;
     align-items: end;
     
