@@ -9,15 +9,36 @@
     justify-content: center;
     align-items: center;
 }
-h1{
+
+h1 {
     padding: 30px;
 }
-#menu{
+
+#menu {
     color: red;
     background-color: black;
     text-align: center;
 }
-#menu:hover{
+
+#menu:hover {
     background-color: orange;
     color: white;
+}
+
+.table {
+    background-color: lightblue;
+    margin-top: 50px;
+}
+body{
+    background-color: lightblue;
+}
+td#valor,
+td#produto {
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+td#titulo{
+    border: solid 1px;
 }

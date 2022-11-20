@@ -21,3 +21,10 @@ h1{
     background-color: orange;
     color: white;
 }
+.table{
+    background-color: lightblue;
+}
+td{
+    border: solid 2px;
+
+}
