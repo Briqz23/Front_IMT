@@ -1,0 +1,4 @@
+https://getbootstrap.com/docs/5.0/layout/containers/
+container-fluid : ocupa tudo
+container-md : de md para baixo, ele ocupa tudo
+col-md-1 : 1 col de md até xxl 
