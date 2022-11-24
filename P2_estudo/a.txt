@@ -9,6 +9,9 @@ https://getbootstrap.com/docs/5.0/layout/columns/
 container
 https://getbootstrap.com/docs/5.0/layout/containers/
 
+d-flex
+https://getbootstrap.com.br/docs/4.1/utilities/flex/
+
 <!doctype html>
 
 <html lang="en">
